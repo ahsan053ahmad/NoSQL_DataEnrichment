@@ -1,17 +1,17 @@
 
-# 📂 NoSQL_DataEnrichment – MongoDB, JSON Processing, and Data Cleaning in Python
+#  NoSQL_DataEnrichment – MongoDB, JSON Processing, and Data Cleaning in Python
 
 This repository contains the submission for Lab 7 of the Data Engineering course, focused on working with **NoSQL databases**, **JSON enrichment**, and **data cleaning techniques**. The assignment leverages MongoDB for data storage and querying, while Python (with `pandas` and `json`) is used for extracting, transforming, and enriching the dataset.
 
 ---
 
-### 🧩 Business Problem
+###  Business Problem
 
 In modern data environments, especially when dealing with semi-structured or external data sources, JSON is a common format. The task was to load JSON data, validate and clean it, and then enrich it using multiple lookup strategies—eventually storing and retrieving the results in/from MongoDB.
 
 ---
 
-### 🎯 Project Objectives
+###  Project Objectives
 
 - Load external JSON datasets into Python using `json` and `pandas`
 - Perform nested structure extraction and flattening
@@ -22,7 +22,7 @@ In modern data environments, especially when dealing with semi-structured or ext
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 1. **JSON File Processing**
    - Loaded a sample nested JSON file representing base records
@@ -43,7 +43,7 @@ In modern data environments, especially when dealing with semi-structured or ext
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 - **Data Quality Assurance**: Cleaning routines enhance data reliability for downstream tasks
 - **NoSQL Proficiency**: Demonstrates real-world application of MongoDB for semi-structured data
@@ -52,7 +52,7 @@ In modern data environments, especially when dealing with semi-structured or ext
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - JSON records contained variable structures and inconsistent nesting
 - MongoDB schema design required careful mapping to flattened data
